@@ -1,0 +1,56 @@
+body{
+    margin:0; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: darkgoldenrod;
+    background-image:url('https://plus.unsplash.com/premium_photo-1675102291799-8c41edd42a32?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+}
+.form{
+    background-image: url("https://images.unsplash.com/photo-1580508244245-c446ca981a6b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU2fHxiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    font-family: serif;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgb(185, 53, 104);
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+    border-radius: 5px;
+    position: fixed;
+    background-size: cover;
+
+}
+.input{
+    border: 2px solid rgb(150, 113, 19);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.input::placeholder{
+    font-family: serif;
+    font-size: medium;
+    color: rgb(214, 178, 106);
+
+}
+.btn{
+    border-radius: 5px;
+    border-color: green;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    filter: brightness(1);
+    
+}
+.score{
+    text-align: right;
+    color: black;
+}
